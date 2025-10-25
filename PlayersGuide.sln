@@ -67,6 +67,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "359. Asynchronous Random Wo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "360. Many Random Words", "360. Many Random Words\360. Many Random Words.csproj", "{16EE9F87-3D5F-4AC6-9762-1881DF9B5887}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "365. Uniter of Adds", "365. Uniter of Adds\365. Uniter of Adds.csproj", "{6380B93F-A1AB-465D-841E-CAFB71B31071}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "366. The Robot Factory", "366. The Robot Factory\366. The Robot Factory.csproj", "{26FC7A2A-9E0A-499E-AE2F-515BB0068929}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -201,6 +205,14 @@ Global
 		{16EE9F87-3D5F-4AC6-9762-1881DF9B5887}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{16EE9F87-3D5F-4AC6-9762-1881DF9B5887}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{16EE9F87-3D5F-4AC6-9762-1881DF9B5887}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6380B93F-A1AB-465D-841E-CAFB71B31071}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6380B93F-A1AB-465D-841E-CAFB71B31071}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6380B93F-A1AB-465D-841E-CAFB71B31071}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6380B93F-A1AB-465D-841E-CAFB71B31071}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26FC7A2A-9E0A-499E-AE2F-515BB0068929}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26FC7A2A-9E0A-499E-AE2F-515BB0068929}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26FC7A2A-9E0A-499E-AE2F-515BB0068929}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26FC7A2A-9E0A-499E-AE2F-515BB0068929}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

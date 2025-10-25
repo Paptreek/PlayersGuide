@@ -2,24 +2,22 @@
 Notifier notifier = new Notifier(tree);
 Harvester harvester = new Harvester(tree);
 
-while (true)
-{
-    tree.MaybeGrow();
-}
-
-/* Just made this part for funsies to see how quickly the computer can generate numbers. Hint: It's fast. Like 100 million loops per second or something.
-
-//int count = 0;
-
-//while (!tree.Ripe)
+//while (true)
 //{
-//    count++;
 //    tree.MaybeGrow();
 //}
 
-//Console.WriteLine($"Attempts made before success: {count}");
+// Just made this part for funsies to see how quickly the computer can generate numbers. Hint: It's fast. Like 100 million loops per second or something.
 
-*/
+int count = 0;
+
+while (!tree.Ripe)
+{
+    count++;
+    tree.MaybeGrow();
+}
+
+Console.WriteLine($"Attempts made before success: {count}");
 
 public class CharberryTree
 {

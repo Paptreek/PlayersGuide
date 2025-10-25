@@ -1,37 +1,30 @@
-﻿/*
- * Objectives:
- * 
- * [ ] Modify your previous program to allow the main thread to keep waiting for the user to enter more words. For every new word entered, create a run a task to compute
- *     the attempt count and the time elapsed and display the result, but then let that run asynchronously while you wait for the next word. You can generate many words
- *     in parallel this way.
- *     
- *     Hint: Moving the elapsed time and the output logic to another async method may make this easier.
- * 
- */
+﻿
+Console.WriteLine("Instructions: Type words below and I will replicate them all using randomly generated letters.\n");
 
 while (true)
 {
-    Console.Write("Enter a word that is between 1 and 5 letters long... or 6, if you dare: ");
     string? word = Console.ReadLine();
+    Task outputTask = PrintOutput(word);
+}
 
+async Task PrintOutput(string? word)
+{
     DateTime start = DateTime.Now;
 
-    if (word != null)
-    {
-        await RandomlyRecreateAsync(word);
-    }
+    int attempts = await RandomlyRecreateAsync(word);
 
     TimeSpan totalTime = DateTime.Now - start;
 
+    Console.WriteLine($"\nIt took {attempts} attempts to generate the word: \"{word}\"");
     Console.WriteLine($"Total runtime: {totalTime.Minutes} minute(s), {totalTime.Seconds} second(s), {totalTime.Milliseconds} millisecond(s).\n");
 }
 
-Task<int> RandomlyRecreateAsync(string word)
+Task<int> RandomlyRecreateAsync(string? word)
 {
     return Task.Run(() => RandomlyRecreate(word));
 }
 
-int RandomlyRecreate(string word)
+int RandomlyRecreate(string? word)
 {
     Random random = new Random();
     List<char> letters = new List<char>();
@@ -57,6 +50,5 @@ int RandomlyRecreate(string word)
         attempts++;
     }
 
-    Console.WriteLine($"It took {attempts} attempts to generate the word: \"{word}\"");
     return attempts;
 }
