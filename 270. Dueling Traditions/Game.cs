@@ -56,6 +56,8 @@
                     EndTime = DateTime.Now;
                     ConsoleHelper.WriteLine("You enabled the fountain and escaped with your life. You win!", ConsoleColor.Magenta);
                     PrintTotalRuntime();
+                    Console.Write("\nPress any key to close the program.");
+                    Console.ReadKey(true);
                 }
                 else if (!Player.IsAlive || HasFallenIntoPit())
                 {
@@ -63,6 +65,8 @@
                     Console.WriteLine($"{PrintCauseOfDeath()}");
                     Console.ForegroundColor = ConsoleColor.White;
                     PrintTotalRuntime();
+                    Console.Write("\nPress any key to close the program.");
+                    Console.ReadKey(true);
                 }
             }
 

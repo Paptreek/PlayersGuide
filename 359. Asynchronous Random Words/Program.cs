@@ -53,6 +53,9 @@ int RandomlyRecreate(string word)
             generatedWord += letter.ToString();
         }
 
+        //Console.WriteLine(generatedWord); // testing
+        //Thread.Sleep(50); // testing
+
         attempts++;
     }
 

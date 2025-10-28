@@ -31,6 +31,8 @@ while (true)
         robot.Color = GetUserInput("Enter the color:");
     }
 
+    Console.WriteLine();
+
     foreach (KeyValuePair<string, object> property in (IDictionary<string, object>)robot)
         Console.WriteLine($"{property.Key}: {property.Value}");
 
