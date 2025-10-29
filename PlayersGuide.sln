@@ -77,6 +77,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "397. Colored Console (Class
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "398. The Great Humanizer", "398. The Great Humanizer\398. The Great Humanizer.csproj", "{4A1B1475-C40B-4151-8F84-E6213FD06BCB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "419. Building Character (Core)", "419. Building Character (Core)\419. Building Character (Core).csproj", "{1AF4A1AE-262C-45F3-B0BB-F5D145E30421}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "420. The True Programmer (Core)", "420. The True Programmer (Core)\420. The True Programmer (Core).csproj", "{6C6491CA-0137-4F84-8E56-69EB94AA6377}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -231,6 +235,14 @@ Global
 		{4A1B1475-C40B-4151-8F84-E6213FD06BCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A1B1475-C40B-4151-8F84-E6213FD06BCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A1B1475-C40B-4151-8F84-E6213FD06BCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AF4A1AE-262C-45F3-B0BB-F5D145E30421}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AF4A1AE-262C-45F3-B0BB-F5D145E30421}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AF4A1AE-262C-45F3-B0BB-F5D145E30421}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AF4A1AE-262C-45F3-B0BB-F5D145E30421}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C6491CA-0137-4F84-8E56-69EB94AA6377}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C6491CA-0137-4F84-8E56-69EB94AA6377}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C6491CA-0137-4F84-8E56-69EB94AA6377}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C6491CA-0137-4F84-8E56-69EB94AA6377}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
