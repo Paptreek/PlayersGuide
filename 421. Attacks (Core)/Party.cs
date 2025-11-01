@@ -6,12 +6,12 @@
     // For now, these CreateParty methods will only add 1 thing. Later, they can add more, either specifics or randoms.
     public void CreateHeroParty()
     {
-        HeroParty?.Add(new Hero("Player One"));
-        HeroParty?.Add(new Hero("Player Two"));
+        HeroParty?.Add(new Hero());
     }
 
     public void CreateMonsterParty()
     {
-        MonsterParty?.Add(new Skeleton());
+        MonsterParty?.Add(new Skeleton(1));
+        MonsterParty?.Add(new Skeleton(2));
     }
 }
